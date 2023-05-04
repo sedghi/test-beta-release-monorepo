@@ -134,6 +134,7 @@ type SetVOIOptions = {
 class StackViewport extends Viewport implements IStackViewport {
   private imageIds: Array<string>;
   // current imageIdIndex that is rendered in the viewport
+  // current imageIdIndex that is rendered in the viewport
   private currentImageIdIndex: number;
   // the imageIdIndex that is targeted to be loaded with scrolling but has not initiated loading yet
   private targetImageIdIndex: number;
