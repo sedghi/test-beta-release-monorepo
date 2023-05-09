@@ -9,6 +9,7 @@ import {
 } from '../types';
 
 // the configuration object for the decodeTask
+// the configuration object for the decodeTask
 let decodeConfig: WebWorkerTaskOptions;
 
 /**

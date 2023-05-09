@@ -1,8 +1,9 @@
-import {data} from 'dcmjs';
+import { data } from "dcmjs";
 
-const {Colors, BitArray} = data;
+const { Colors, BitArray } = data;
 
 // TODO: Is there a better name for this? RGBAInt?
+// Should we move it to Colors.js
 // Should we move it to Colors.js
 function dicomlab2RGBA(cielab) {
     const rgba = Colors.dicomlab2RGB(cielab).map(x => Math.round(x * 255));

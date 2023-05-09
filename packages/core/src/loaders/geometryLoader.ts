@@ -13,6 +13,7 @@ type GeometryOptions = {
 /**
  * Todo: currently we are not targeting loading geometry from a file.
  * This is a placeholder for future work. For instance, separate loaders
+ * This is a placeholder for future work. For instance, separate loaders
  * for .vti, .vtk, .obj, .dat etc. can be created and registered here.
  */
 

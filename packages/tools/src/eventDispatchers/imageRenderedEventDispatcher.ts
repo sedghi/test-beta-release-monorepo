@@ -9,6 +9,7 @@ import triggerAnnotationRender from '../utilities/triggerAnnotationRender';
  * - Note that these tools don't necessarily have to be instances of  `AnnotationTool`,
  *   Any tool may register a `renderAnnotation` method (e.g. a tool that displays an overlay).
  *   Any tool may register a `renderAnnotation` method (e.g. a tool that displays an overlay).
+ *   Any tool may register a `renderAnnotation` method (e.g. a tool that displays an overlay).
  *
  * @param evt - The normalized IMAGE_RENDERED event.
  */
