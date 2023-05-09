@@ -14,6 +14,7 @@ function get4DVolumeInfo(imageIds: string[]) {
 
 /**
  * It handles loading of a image by streaming in its imageIds. It will be the
+ * It handles loading of a image by streaming in its imageIds. It will be the
  * volume loader if the schema for the volumeID is `cornerstoneStreamingImageVolume`.
  * This function returns a promise that resolves to the StreamingDynamicImageVolume instance.
  *
