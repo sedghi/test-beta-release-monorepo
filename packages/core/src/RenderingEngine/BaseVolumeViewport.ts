@@ -46,6 +46,7 @@ import vtkSlabCamera from './vtkClasses/vtkSlabCamera';
  * 3D volumes from which various orientations can be viewed. Since VolumeViewports
  * use SharedVolumeMappers behind the scene, memory footprint of visualizations
  * of the same volume in different orientations is very small.
+ * of the same volume in different orientations is very small.
  *
  * For setting volumes on viewports you need to use {@link addVolumesToViewports}
  * which will add volumes to the specified viewports.

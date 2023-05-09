@@ -11,6 +11,8 @@ import {
  * one annotation per tool.
  *
  *
+ *
+ * @param element - The HTML element
  * @param element - The HTML element
  * @param ToolAndAnnotations - The input tool array.
  * @param canvasCoords - The coordinates of the mouse position.

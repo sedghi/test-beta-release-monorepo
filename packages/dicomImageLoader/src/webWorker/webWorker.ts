@@ -20,6 +20,7 @@ interface CornerstoneWadoWebWorkerTaskHandler {
 }
 
 // an object of task handlers
+// an object of task handlers
 const taskHandlers: Record<string, CornerstoneWadoWebWorkerTaskHandler> = {};
 
 // Flag to ensure web worker is only initialized once

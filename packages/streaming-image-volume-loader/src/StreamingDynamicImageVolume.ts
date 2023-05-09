@@ -10,6 +10,9 @@ type TimePoint = {
 
 /**
  * Streaming Image Volume Class that extends StreamingImageVolume base class.
+ * Streaming Image Volume Class that extends StreamingImageVolume base class.
+ * Streaming Image Volume Class that extends StreamingImageVolume base class.
+ * Streaming Image Volume Class that extends StreamingImageVolume base class.
  * It implements load method to load the imageIds and insert them into the volume.
  */
 export default class StreamingDynamicImageVolume

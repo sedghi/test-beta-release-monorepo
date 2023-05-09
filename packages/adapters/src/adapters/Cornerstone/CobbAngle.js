@@ -8,6 +8,7 @@ const COBB_ANGLE = "CobbAngle";
 
 class CobbAngle {
     // TODO: this function is required for all Cornerstone Tool Adapters, since it is called by MeasurementReport.
+    // TODO: this function is required for all Cornerstone Tool Adapters, since it is called by MeasurementReport.
     static getMeasurementData(MeasurementGroup) {
         const { defaultState, NUMGroup, SCOORDGroup } =
             MeasurementReport.getSetupMeasurementData(MeasurementGroup);
