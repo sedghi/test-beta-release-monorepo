@@ -10,6 +10,9 @@
     "dist/",
     "src/"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "directories": {
     "test": "test"
   },
