@@ -77,7 +77,7 @@ module.exports = {
   )}" },
       {
         from:
-          '../../../node_modules/@alireza-test-monorepo/dicom-image-loader/dist/dynamic-import',
+          '../../../node_modules/@alireza-beta-monorepo/dicom-image-loader/dist/dynamic-import',
         to: '${destPath.replace(/\\/g, '/')}',
       },
       ],

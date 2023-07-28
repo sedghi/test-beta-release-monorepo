@@ -21,7 +21,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 //         new CopyPlugin({
 //           patterns: [
 //             {
-//               from: '../../node_modules/@alireza-test-monorepo/dicom-image-loader/dist/dynamic-import/',
+//               from: '../../node_modules/@alireza-beta-monorepo/dicom-image-loader/dist/dynamic-import/',
 //             },
 //           ],
 //         }),
