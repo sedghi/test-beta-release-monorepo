@@ -1,6 +1,6 @@
 import { vec3 } from 'gl-matrix';
-import type { Types } from '@alireza-test-monorepo/core';
-import { utilities as csUtils } from '@alireza-test-monorepo/core';
+import type { Types } from '@alireza-beta-monorepo/core';
+import { utilities as csUtils } from '@alireza-beta-monorepo/core';
 
 import {
   getCanvasEllipseCorners,

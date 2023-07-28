@@ -1,5 +1,5 @@
-import { utilities as csUtils } from '@alireza-test-monorepo/core';
-import type { Types } from '@alireza-test-monorepo/core';
+import { utilities as csUtils } from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-monorepo/core';
 import getBoundingBoxAroundShape from '../boundingBox/getBoundingBoxAroundShape';
 import extend2DBoundingBoxInViewAxis from '../boundingBox/extend2DBoundingBoxInViewAxis';
 

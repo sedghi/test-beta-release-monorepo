@@ -1,6 +1,6 @@
 import { ToolGroupManager } from '../store';
 import { ToolModes } from '../enums';
-import { getEnabledElement } from '@alireza-test-monorepo/core';
+import { getEnabledElement } from '@alireza-beta-monorepo/core';
 
 type ModesFilter = Array<ToolModes>;
 

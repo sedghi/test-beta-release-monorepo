@@ -1,4 +1,4 @@
-import { Types } from '@alireza-test-monorepo/core';
+import { Types } from '@alireza-beta-monorepo/core';
 
 /**
  * Points in page, client, canvas and world

@@ -3,8 +3,8 @@ import {
   Enums,
   init as csInit,
   Types,
-} from '@alireza-test-monorepo/core';
-import { init as csTools3dInit } from '@alireza-test-monorepo/tools';
+} from '@alireza-beta-monorepo/core';
+import { init as csTools3dInit } from '@alireza-beta-monorepo/tools';
 
 // This is for debugging purposes
 console.warn(

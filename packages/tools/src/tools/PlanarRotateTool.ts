@@ -2,7 +2,7 @@ import {
   BaseVolumeViewport,
   getEnabledElement,
   Types,
-} from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
 import { mat4, vec3 } from 'gl-matrix';
 import { BaseTool } from './base';
 import angleBetweenLines from '../utilities/math/angle/angleBetweenLines';

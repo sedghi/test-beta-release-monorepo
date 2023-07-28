@@ -10,7 +10,7 @@ import {
   Enums,
   setVolumesForViewports,
   volumeLoader,
-} from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
 import {
   addTool,
   BrushTool,
@@ -21,7 +21,7 @@ import {
   ZoomTool,
   segmentation,
   Enums as csToolsEnums,
-} from '@alireza-test-monorepo/tools';
+} from '@alireza-beta-monorepo/tools';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,

@@ -1,8 +1,8 @@
-import { volumeLoader } from '@alireza-test-monorepo/core';
+import { volumeLoader } from '@alireza-beta-monorepo/core';
 import {
   cornerstoneStreamingImageVolumeLoader,
   cornerstoneStreamingDynamicImageVolumeLoader,
-} from '@alireza-test-monorepo/streaming-image-volume-loader';
+} from '@alireza-beta-monorepo/streaming-image-volume-loader';
 
 export default function initVolumeLoader() {
   volumeLoader.registerUnknownVolumeLoader(

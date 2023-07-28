@@ -1,4 +1,4 @@
-import type { Types } from '@alireza-test-monorepo/core';
+import type { Types } from '@alireza-beta-monorepo/core';
 
 /**
  * Find the closest point to the target point

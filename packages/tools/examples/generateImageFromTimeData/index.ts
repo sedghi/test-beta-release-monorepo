@@ -4,7 +4,7 @@ import {
   Enums,
   volumeLoader,
   getRenderingEngine,
-} from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,
@@ -14,7 +14,7 @@ import {
   addDropdownToToolbar,
   addButtonToToolbar,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@alireza-test-monorepo/tools';
+import * as cornerstoneTools from '@alireza-beta-monorepo/tools';
 import cornerstoneDICOMImageLoader from '@alireza-test-monorepo/dicom-image-loader';
 
 const {

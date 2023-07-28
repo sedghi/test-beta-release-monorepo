@@ -6,9 +6,9 @@ import {
   VolumeViewport,
   cache,
   BaseVolumeViewport,
-} from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
 
-import { Types } from '@alireza-test-monorepo/core';
+import { Types } from '@alireza-beta-monorepo/core';
 import CINE_EVENTS from './events';
 import { addToolState, getToolState } from './state';
 import { CINETypes } from '../../types';

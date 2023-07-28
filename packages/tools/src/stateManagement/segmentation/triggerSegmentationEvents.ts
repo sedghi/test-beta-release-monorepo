@@ -1,4 +1,4 @@
-import { triggerEvent, eventTarget } from '@alireza-test-monorepo/core';
+import { triggerEvent, eventTarget } from '@alireza-beta-monorepo/core';
 
 import { Events } from '../../enums';
 import {

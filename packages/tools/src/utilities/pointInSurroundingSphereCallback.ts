@@ -1,5 +1,5 @@
-import { utilities as csUtils } from '@alireza-test-monorepo/core';
-import type { Types } from '@alireza-test-monorepo/core';
+import { utilities as csUtils } from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-monorepo/core';
 
 import type { vtkImageData } from '@kitware/vtk.js/Common/DataModel/ImageData';
 import { vec3 } from 'gl-matrix';

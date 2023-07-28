@@ -1,4 +1,4 @@
-import { getRenderingEngine } from '@alireza-test-monorepo/core';
+import { getRenderingEngine } from '@alireza-beta-monorepo/core';
 import triggerAnnotationRenderForViewportIds from '../../utilities/triggerAnnotationRenderForViewportIds';
 
 /**

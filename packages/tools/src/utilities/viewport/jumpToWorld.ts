@@ -1,5 +1,5 @@
-import { VolumeViewport } from '@alireza-test-monorepo/core';
-import type { Types } from '@alireza-test-monorepo/core';
+import { VolumeViewport } from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-monorepo/core';
 
 import { vec3 } from 'gl-matrix';
 

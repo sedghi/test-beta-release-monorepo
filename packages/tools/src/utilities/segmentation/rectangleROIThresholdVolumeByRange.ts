@@ -1,4 +1,4 @@
-import type { Types } from '@alireza-test-monorepo/core';
+import type { Types } from '@alireza-beta-monorepo/core';
 import { state } from '../../stateManagement/annotation';
 import {
   RectangleROIStartEndThresholdTool,

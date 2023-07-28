@@ -4,7 +4,7 @@ import {
   VolumeViewport,
   utilities as csUtils,
   Types,
-} from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
 import JumpToSliceOptions from '../../types/JumpToSliceOptions';
 import clip from '../clip';
 import scroll from '../scroll';

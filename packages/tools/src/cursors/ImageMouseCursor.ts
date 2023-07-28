@@ -1,4 +1,4 @@
-import { utilities } from '@alireza-test-monorepo/core';
+import { utilities } from '@alireza-beta-monorepo/core';
 import MouseCursor from './MouseCursor';
 
 const DEFAULT_NAME = 'image-cursor';

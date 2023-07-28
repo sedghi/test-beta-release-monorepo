@@ -3,7 +3,7 @@ import {
   Types,
   Enums,
   getRenderingEngine,
-} from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,
@@ -17,7 +17,7 @@ import {
   Enums as csToolsEnums,
   annotation,
   addTool,
-} from '@alireza-test-monorepo/tools';
+} from '@alireza-beta-monorepo/tools';
 
 // This is for debugging purposes
 console.warn(

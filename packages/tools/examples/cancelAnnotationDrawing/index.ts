@@ -1,4 +1,4 @@
-import { RenderingEngine, Types, Enums } from '@alireza-test-monorepo/core';
+import { RenderingEngine, Types, Enums } from '@alireza-beta-monorepo/core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,
@@ -6,7 +6,7 @@ import {
   addDropdownToToolbar,
   addToggleButtonToToolbar,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@alireza-test-monorepo/tools';
+import * as cornerstoneTools from '@alireza-beta-monorepo/tools';
 
 // This is for debugging purposes
 console.warn(

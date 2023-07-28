@@ -1,4 +1,4 @@
-import { Types } from '@alireza-test-monorepo/core';
+import { Types } from '@alireza-beta-monorepo/core';
 import { PlanarFreehandROITool } from '../../tools';
 import { ToolGroupManager } from '../../store';
 import { PlanarFreehandROIAnnotation } from '../../types/ToolSpecificAnnotationTypes';

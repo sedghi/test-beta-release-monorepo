@@ -1,7 +1,7 @@
 import { getToolGroup } from '../../store/ToolGroupManager';
 import BrushTool from '../../tools/segmentation/BrushTool';
 import triggerAnnotationRenderForViewportIds from '../triggerAnnotationRenderForViewportIds';
-import { getRenderingEngine } from '@alireza-test-monorepo/core';
+import { getRenderingEngine } from '@alireza-beta-monorepo/core';
 import getBrushToolInstances from './utilities';
 
 export function setBrushSizeForToolGroup(

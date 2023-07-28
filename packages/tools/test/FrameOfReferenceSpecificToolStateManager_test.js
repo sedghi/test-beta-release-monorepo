@@ -1,5 +1,5 @@
 import * as csTools from '../src/index';
-import * as cornerstone3D from '@alireza-test-monorepo/core';
+import * as cornerstone3D from '@alireza-beta-monorepo/core';
 
 const annotationManager = csTools.annotation.state.getAnnotationManager();
 

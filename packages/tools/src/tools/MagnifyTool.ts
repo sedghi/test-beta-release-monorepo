@@ -1,13 +1,13 @@
 import { BaseTool } from './base';
 import { Events } from '../enums';
 
-import { getEnabledElement, StackViewport } from '@alireza-test-monorepo/core';
-import type { Types } from '@alireza-test-monorepo/core';
+import { getEnabledElement, StackViewport } from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-monorepo/core';
 import { EventTypes, PublicToolProps, ToolProps } from '../types';
 import { getViewportIdsWithToolToRender } from '../utilities/viewportFilters';
 import triggerAnnotationRenderForViewportIds from '../utilities/triggerAnnotationRenderForViewportIds';
 import { state } from '../store';
-import { Enums } from '@alireza-test-monorepo/core';
+import { Enums } from '@alireza-beta-monorepo/core';
 
 import {
   hideElementCursor,

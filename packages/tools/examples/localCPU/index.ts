@@ -1,13 +1,18 @@
-import { RenderingEngine, Types, Enums, metaData } from '@alireza-test-monorepo/core';
+import {
+  RenderingEngine,
+  Types,
+  Enums,
+  metaData,
+} from '@alireza-beta-monorepo/core';
 import cornerstoneDICOMImageLoader from '@alireza-test-monorepo/dicom-image-loader';
-import * as cornerstoneTools from '@alireza-test-monorepo/tools';
+import * as cornerstoneTools from '@alireza-beta-monorepo/tools';
 import htmlSetup from '../local/htmlSetup';
 import uids from '../local/uids';
 
 import initProviders from '../../../../utils/demo/helpers/initProviders';
 import initCornerstoneDICOMImageLoader from '../../../../utils/demo/helpers/initCornerstoneDICOMImageLoader';
 import initVolumeLoader from './../../../../utils/demo/helpers/initVolumeLoader';
-import { setUseCPURendering } from '@alireza-test-monorepo/core';
+import { setUseCPURendering } from '@alireza-beta-monorepo/core';
 
 const {
   PanTool,

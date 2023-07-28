@@ -66,9 +66,9 @@ module.exports = {
   },
   resolve: {
     alias: {
-      '@alireza-test-monorepo/core': '${csRenderBasePath.replace(/\\/g, '/')}',
-      '@alireza-test-monorepo/tools': '${csToolsBasePath.replace(/\\/g, '/')}',
-      '@alireza-test-monorepo/streaming-image-volume-loader': '${csStreamingBasePath.replace(
+      '@alireza-beta-monorepo/core': '${csRenderBasePath.replace(/\\/g, '/')}',
+      '@alireza-beta-monorepo/tools': '${csToolsBasePath.replace(/\\/g, '/')}',
+      '@alireza-beta-monorepo/streaming-image-volume-loader': '${csStreamingBasePath.replace(
         /\\/g,
         '//'
       )}',

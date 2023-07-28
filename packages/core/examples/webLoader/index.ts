@@ -5,7 +5,7 @@ import {
   metaData,
   getRenderingEngine,
   Types,
-} from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
 import {
   initDemo,
   setTitleAndDescription,

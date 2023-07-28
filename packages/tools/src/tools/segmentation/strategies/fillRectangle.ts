@@ -1,5 +1,5 @@
-import { ImageVolume, utilities as csUtils } from '@alireza-test-monorepo/core';
-import type { Types } from '@alireza-test-monorepo/core';
+import { ImageVolume, utilities as csUtils } from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-monorepo/core';
 
 import { getBoundingBoxAroundShape } from '../../../utilities/boundingBox';
 import { pointInShapeCallback } from '../../../utilities';

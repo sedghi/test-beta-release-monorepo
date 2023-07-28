@@ -34,17 +34,17 @@ module.exports = (env, argv) => {
     },
     externals: [
       {
-        '@alireza-test-monorepo/core': {
+        '@alireza-beta-monorepo/core': {
           root: 'cornerstone3D',
-          commonjs: '@alireza-test-monorepo/core',
-          commonjs2: '@alireza-test-monorepo/core',
-          amd: '@alireza-test-monorepo/core',
+          commonjs: '@alireza-beta-monorepo/core',
+          commonjs2: '@alireza-beta-monorepo/core',
+          amd: '@alireza-beta-monorepo/core',
         },
-        '@alireza-test-monorepo/streaming-image-volume-loader': {
+        '@alireza-beta-monorepo/streaming-image-volume-loader': {
           root: 'cornerstoneStreamingImageVolumeLoader',
-          commonjs: '@alireza-test-monorepo/streaming-image-volume-loader',
-          commonjs2: '@alireza-test-monorepo/streaming-image-volume-loader',
-          amd: '@alireza-test-monorepo/streaming-image-volume-loader',
+          commonjs: '@alireza-beta-monorepo/streaming-image-volume-loader',
+          commonjs2: '@alireza-beta-monorepo/streaming-image-volume-loader',
+          amd: '@alireza-beta-monorepo/streaming-image-volume-loader',
         },
         'gl-matrix': {
           root: 'window',

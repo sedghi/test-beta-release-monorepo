@@ -1,4 +1,4 @@
-import { Types } from '@alireza-test-monorepo/core';
+import { Types } from '@alireza-beta-monorepo/core';
 import { Annotation } from './AnnotationTypes';
 import IPoints from './IPoints';
 import ITouchPoints from './ITouchPoints';

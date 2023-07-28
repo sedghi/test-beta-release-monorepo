@@ -1,4 +1,4 @@
-import { Types } from '@alireza-test-monorepo/core';
+import { Types } from '@alireza-beta-monorepo/core';
 import { Synchronizer } from '../store';
 
 export default interface ISynchronizerEventHandler {

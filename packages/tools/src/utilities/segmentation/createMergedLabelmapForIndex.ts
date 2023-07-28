@@ -1,5 +1,8 @@
-import { Types } from '@alireza-test-monorepo/core';
-import { volumeLoader, utilities as csUtils } from '@alireza-test-monorepo/core';
+import { Types } from '@alireza-beta-monorepo/core';
+import {
+  volumeLoader,
+  utilities as csUtils,
+} from '@alireza-beta-monorepo/core';
 
 /**
  * Given a list of labelmaps (with the possibility of overlapping regions), and

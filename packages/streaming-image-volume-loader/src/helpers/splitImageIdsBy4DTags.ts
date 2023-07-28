@@ -1,4 +1,4 @@
-import { metaData } from '@alireza-test-monorepo/core';
+import { metaData } from '@alireza-beta-monorepo/core';
 
 // TODO: add support for other 4D tags as listed below
 // Supported 4D Tags

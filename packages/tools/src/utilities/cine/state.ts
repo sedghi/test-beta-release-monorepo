@@ -1,4 +1,4 @@
-import { getEnabledElement } from '@alireza-test-monorepo/core';
+import { getEnabledElement } from '@alireza-beta-monorepo/core';
 import { CINETypes } from '../../types';
 
 const state: Record<string, CINETypes.ToolData> = {};

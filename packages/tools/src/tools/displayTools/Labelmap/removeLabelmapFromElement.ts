@@ -1,5 +1,5 @@
-import { getEnabledElement } from '@alireza-test-monorepo/core';
-import type { Types } from '@alireza-test-monorepo/core';
+import { getEnabledElement } from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-monorepo/core';
 
 /**
  * Remove the labelmap segmentation representation from the viewport's HTML Element.

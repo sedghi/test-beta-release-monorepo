@@ -25,8 +25,8 @@ Synchronizers also expose a `disabled` flag that can be used to temporarily prev
 synchronization.
 
 ```js
-import { Enums } from '@alireza-test-monorepo/core';
-import { SynchronizerManager } from '@alireza-test-monorepo/tools';
+import { Enums } from '@alireza-beta-monorepo/core';
+import { SynchronizerManager } from '@alireza-beta-monorepo/tools';
 
 const cameraPositionSynchronizer = SynchronizerManager.createSynchronizer(
   'synchronizerName',

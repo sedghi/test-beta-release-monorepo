@@ -16,7 +16,7 @@ When drawing with segmentation tools, you can specify which segment index to use
 ## API
 
 ```js
-import { segmentation } from '@alireza-test-monorepo/tools';
+import { segmentation } from '@alireza-beta-monorepo/tools';
 
 // get active segment index for the segmentation Id
 segmentation.segmentIndex.getActiveSegmentIndex(segmentationId);

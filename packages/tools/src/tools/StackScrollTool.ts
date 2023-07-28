@@ -3,7 +3,7 @@ import {
   VolumeViewport,
   StackViewport,
   utilities as csUtils,
-} from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
 import { BaseTool } from './base';
 import { scroll } from '../utilities';
 import { PublicToolProps, ToolProps, EventTypes } from '../types';

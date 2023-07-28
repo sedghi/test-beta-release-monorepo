@@ -1,4 +1,4 @@
-import { eventTarget, getRenderingEngine } from '@alireza-test-monorepo/core';
+import { eventTarget, getRenderingEngine } from '@alireza-beta-monorepo/core';
 import Events from '../enums/Events';
 import triggerAnnotationRenderForViewportIds from '../utilities/triggerAnnotationRenderForViewportIds';
 import { AnnotationModifiedEventType } from '../types/EventTypes';

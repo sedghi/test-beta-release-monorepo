@@ -1,5 +1,5 @@
 import { createSynchronizer } from '../../store/SynchronizerManager';
-import { Enums } from '@alireza-test-monorepo/core';
+import { Enums } from '@alireza-beta-monorepo/core';
 import cameraSyncCallback from '../callbacks/cameraSyncCallback';
 import Synchronizer from '../../store/SynchronizerManager/Synchronizer';
 

@@ -1,4 +1,4 @@
-import { getEnabledElement, Types } from '@alireza-test-monorepo/core';
+import { getEnabledElement, Types } from '@alireza-beta-monorepo/core';
 import {
   mouseEventListeners,
   wheelEventListener,

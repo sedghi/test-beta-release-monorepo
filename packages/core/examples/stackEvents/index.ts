@@ -3,7 +3,7 @@ import {
   Types,
   getRenderingEngine,
   Enums,
-} from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,

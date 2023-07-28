@@ -3,7 +3,7 @@ import {
   Types,
   Enums,
   volumeLoader,
-} from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
 import {
   initDemo,
   setTitleAndDescription,

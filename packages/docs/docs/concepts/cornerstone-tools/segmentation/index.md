@@ -41,7 +41,7 @@ about this in the next section.
 `Segmentation` related functions and classes are available in the `segmentation` module.
 
 ```js
-import { segmentation } from '@alireza-test-monorepo/tools';
+import { segmentation } from '@alireza-beta-monorepo/tools';
 
 // segmentation state holding all segmentations and their toolGroup specific representations
 segmentations.state.XYZ;

@@ -6,8 +6,8 @@ import {
   eventTarget,
   triggerEvent,
   utilities as csUtils,
-} from '@alireza-test-monorepo/core';
-import type { Types } from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-monorepo/core';
 
 import throttle from '../../utilities/throttle';
 import {

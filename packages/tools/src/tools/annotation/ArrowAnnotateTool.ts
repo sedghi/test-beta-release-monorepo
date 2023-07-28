@@ -4,8 +4,8 @@ import {
   triggerEvent,
   eventTarget,
   utilities as csUtils,
-} from '@alireza-test-monorepo/core';
-import type { Types } from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-monorepo/core';
 
 import { AnnotationTool } from '../base';
 import {

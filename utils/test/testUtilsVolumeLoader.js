@@ -1,6 +1,6 @@
 import vtkDataArray from '@kitware/vtk.js/Common/Core/DataArray';
 import vtkImageData from '@kitware/vtk.js/Common/DataModel/ImageData';
-import { ImageVolume } from '@alireza-test-monorepo/core';
+import { ImageVolume } from '@alireza-beta-monorepo/core';
 import {
   getVerticalBarRGBVolume,
   getVerticalBarVolume,

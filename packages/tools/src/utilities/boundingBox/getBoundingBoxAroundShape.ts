@@ -1,4 +1,4 @@
-import type { Types } from '@alireza-test-monorepo/core';
+import type { Types } from '@alireza-beta-monorepo/core';
 
 /**
  * With a given vertices (points) coordinates in IJK, it calculates the minimum and maximum

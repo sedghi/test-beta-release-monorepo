@@ -1,4 +1,4 @@
-import { getRenderingEngine, Types } from '@alireza-test-monorepo/core';
+import { getRenderingEngine, Types } from '@alireza-beta-monorepo/core';
 import { Synchronizer } from '../../store';
 
 /**

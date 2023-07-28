@@ -9,8 +9,8 @@ import {
   getEnabledElement,
   utilities as csUtils,
   Enums,
-} from '@alireza-test-monorepo/core';
-import type { Types } from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-monorepo/core';
 
 import {
   getToolGroup,
@@ -50,7 +50,7 @@ import {
 } from '../types';
 import { isAnnotationLocked } from '../stateManagement/annotation/annotationLocking';
 import triggerAnnotationRenderForViewportIds from '../utilities/triggerAnnotationRenderForViewportIds';
-import { CONSTANTS } from '@alireza-test-monorepo/core';
+import { CONSTANTS } from '@alireza-beta-monorepo/core';
 
 const { RENDERING_DEFAULTS } = CONSTANTS;
 

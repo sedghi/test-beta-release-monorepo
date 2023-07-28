@@ -2,7 +2,7 @@ import {
   cornerstoneStreamingImageVolumeLoader,
   StreamingImageVolume,
 } from '../src';
-import * as cornerstone from '@alireza-test-monorepo/core';
+import * as cornerstone from '@alireza-beta-monorepo/core';
 import * as testUtils from '../../../utils/test/testUtils';
 
 const { cache, metaData, imageLoader, volumeLoader } = cornerstone;

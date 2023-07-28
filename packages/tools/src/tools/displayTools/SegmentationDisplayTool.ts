@@ -2,7 +2,7 @@ import {
   getEnabledElementByIds,
   Types,
   utilities as csUtils,
-} from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
 import Representations from '../../enums/SegmentationRepresentations';
 import { config as segmentationConfig } from '../../stateManagement/segmentation';
 import { setSegmentationVisibility } from '../../stateManagement/segmentation/config/segmentationVisibility';

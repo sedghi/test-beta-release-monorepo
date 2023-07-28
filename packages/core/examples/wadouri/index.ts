@@ -3,14 +3,14 @@ import {
   Types,
   Enums,
   getRenderingEngine,
-} from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
 import {
   addButtonToToolbar,
   setTitleAndDescription,
   ctVoiRange,
 } from '../../../../utils/demo/helpers';
 import initCornerstoneDICOMImageLoader from '../../../../utils/demo/helpers/initCornerstoneDICOMImageLoader';
-import { init as csRenderInit } from '@alireza-test-monorepo/core';
+import { init as csRenderInit } from '@alireza-beta-monorepo/core';
 
 // This is for debugging purposes
 console.warn(

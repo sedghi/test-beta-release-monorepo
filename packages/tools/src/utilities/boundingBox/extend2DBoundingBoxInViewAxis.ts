@@ -1,4 +1,4 @@
-import type { Types } from '@alireza-test-monorepo/core';
+import type { Types } from '@alireza-beta-monorepo/core';
 
 /**
  * Uses the current bounds of the 2D rectangle and extends it in the view axis by numSlices

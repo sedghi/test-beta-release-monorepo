@@ -5,9 +5,9 @@ import {
   setVolumesForViewports,
   utilities,
   cache,
-} from '@alireza-test-monorepo/core';
-import { StreamingImageVolume } from '@alireza-test-monorepo/streaming-image-volume-loader';
-import { Types as cstTypes } from '@alireza-test-monorepo/tools';
+} from '@alireza-beta-monorepo/core';
+import { StreamingImageVolume } from '@alireza-beta-monorepo/streaming-image-volume-loader';
+import { Types as cstTypes } from '@alireza-beta-monorepo/tools';
 
 const { ViewportType } = Enums;
 const VOLUME_LOADER_SCHEME = 'wadors';

@@ -1,4 +1,4 @@
-import * as cornerstone3D from '@alireza-test-monorepo/core';
+import * as cornerstone3D from '@alireza-beta-monorepo/core';
 import * as csTools3d from '../src/index';
 import * as testUtils from '../../../utils/test/testUtils';
 

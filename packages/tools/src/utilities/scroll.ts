@@ -5,7 +5,7 @@ import {
   eventTarget,
   EVENTS,
   utilities as csUtils,
-} from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
 import { ScrollOptions, EventTypes } from '../types';
 
 /**

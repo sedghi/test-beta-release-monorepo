@@ -1,7 +1,12 @@
-import { RenderingEngine, Types, Enums, CONSTANTS } from '@alireza-test-monorepo/core';
+import {
+  RenderingEngine,
+  Types,
+  Enums,
+  CONSTANTS,
+} from '@alireza-beta-monorepo/core';
 import { setTitleAndDescription } from '../../../../utils/demo/helpers';
-import { init as csRenderInit } from '@alireza-test-monorepo/core';
-import { init as csToolsInit } from '@alireza-test-monorepo/tools';
+import { init as csRenderInit } from '@alireza-beta-monorepo/core';
+import { init as csToolsInit } from '@alireza-beta-monorepo/tools';
 
 import vtkActor from '@kitware/vtk.js/Rendering/Core/Actor';
 import vtkSphereSource from '@kitware/vtk.js/Filters/Sources/SphereSource';

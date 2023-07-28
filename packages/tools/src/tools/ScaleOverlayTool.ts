@@ -4,9 +4,9 @@ import {
   getEnabledElementByIds,
   getRenderingEngines,
   utilities as csUtils,
-} from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
 import { ScaleOverlayAnnotation } from '../types/ToolSpecificAnnotationTypes';
-import type { Types } from '@alireza-test-monorepo/core';
+import type { Types } from '@alireza-beta-monorepo/core';
 import {
   addAnnotation,
   getAnnotations,

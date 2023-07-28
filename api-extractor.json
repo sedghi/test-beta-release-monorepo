@@ -44,9 +44,9 @@
    * local files for library1.
    */
   "bundledPackages": [
-    "@alireza-test-monorepo/core",
-    "@alireza-test-monorepo/tools",
-    "@alireza-test-monorepo/streaming-image-volume-loader"
+    "@alireza-beta-monorepo/core",
+    "@alireza-beta-monorepo/tools",
+    "@alireza-beta-monorepo/streaming-image-volume-loader"
   ],
 
   /**

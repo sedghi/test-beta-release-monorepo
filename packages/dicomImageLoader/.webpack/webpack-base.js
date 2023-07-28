@@ -29,7 +29,7 @@ module.exports = {
   },
   devtool: 'source-map',
   externals: [
-    '@alireza-test-monorepo/core',
+    '@alireza-beta-monorepo/core',
     'uuid',
     {
       'dicom-parser': {

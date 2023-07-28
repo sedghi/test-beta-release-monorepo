@@ -1,4 +1,4 @@
-import { getEnabledElement, triggerEvent } from '@alireza-test-monorepo/core';
+import { getEnabledElement, triggerEvent } from '@alireza-beta-monorepo/core';
 import normalizeWheel from './normalizeWheel';
 import Events from '../../enums/Events';
 // ~~ VIEWPORT LIBRARY

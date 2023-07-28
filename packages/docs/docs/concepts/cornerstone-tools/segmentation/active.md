@@ -25,7 +25,7 @@ representation more visible.
 Active Segmentation API provides setters and getters for the active segmentation representation.
 
 ```js
-import { segmentation } from '@alireza-test-monorepo/tools';
+import { segmentation } from '@alireza-beta-monorepo/tools';
 
 // get the active segmentation representation for a toolGroup
 segmentation.getActiveSegmentationRepresentation(toolGroupId);

@@ -1,5 +1,5 @@
 import _cloneDeep from 'lodash.clonedeep';
-import { getEnabledElement, triggerEvent } from '@alireza-test-monorepo/core';
+import { getEnabledElement, triggerEvent } from '@alireza-beta-monorepo/core';
 import Events from '../../enums/Events';
 import { KeyDownEventDetail, KeyUpEventDetail } from '../../types/EventTypes';
 

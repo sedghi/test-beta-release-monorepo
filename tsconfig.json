@@ -3,11 +3,11 @@
   "compilerOptions": {
     "baseUrl": "./packages",
     "paths": {
-      "@alireza-test-monorepo/streaming-image-volume-loader": [
+      "@alireza-beta-monorepo/streaming-image-volume-loader": [
         "streaming-image-volume-loader/src"
       ],
-      "@alireza-test-monorepo/core": ["core/src"],
-      "@alireza-test-monorepo/tools": ["tools/src"],
+      "@alireza-beta-monorepo/core": ["core/src"],
+      "@alireza-beta-monorepo/tools": ["tools/src"],
       "@alireza-test-monorepo/dicom-image-loader": ["tools/src"],
     }
   }

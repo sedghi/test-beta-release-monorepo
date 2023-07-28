@@ -20,7 +20,7 @@ import {
   segmentation,
   SegmentationDisplayTool,
   ToolGroupManager,
-} from '@alireza-test-monorepo/tools';
+} from '@alireza-beta-monorepo/tools';
 
 const segmentationId = 'segmentationId';
 const toolGroupId = 'segmentation-display-tool-group';

@@ -1,5 +1,5 @@
-import { metaData } from '@alireza-test-monorepo/core';
-import type { Types } from '@alireza-test-monorepo/core';
+import { metaData } from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-monorepo/core';
 
 /**
  * It creates a metadata object for a volume given the imageIds that compose it.

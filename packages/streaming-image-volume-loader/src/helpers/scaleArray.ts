@@ -1,4 +1,4 @@
-import type { Types } from '@alireza-test-monorepo/core';
+import type { Types } from '@alireza-beta-monorepo/core';
 
 /**
  * Given a pixel array, rescale the pixel values using the rescale slope and

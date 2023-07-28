@@ -4,7 +4,7 @@ import {
   Types,
   metaData,
   utilities,
-} from '@alireza-test-monorepo/core';
+} from '@alireza-beta-monorepo/core';
 import { Synchronizer } from '../../store';
 import { jumpToSlice } from '../../utilities';
 import areViewportsCoplanar from './areViewportsCoplanar ';
