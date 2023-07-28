@@ -33,9 +33,6 @@ import { LabelmapSegmentationData } from '../../types/LabelmapTypes';
 
 /**
  * Tool for manipulating segmentation data by drawing a circle. It acts on the
- * active Segmentation on the viewport (enabled element) and requires an active
- * segmentation to be already present. By default it will use the activeSegmentIndex
- * for the segmentation to modify. You can use SegmentationModule to set the active
  * segmentation and segmentIndex.
  */
 class CircleScissorsTool extends BaseTool {

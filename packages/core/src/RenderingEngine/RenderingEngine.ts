@@ -56,10 +56,14 @@ const VIEWPORT_MIN_SIZE = 2;
  *
  * Rendering engine uses `detect-gpu` external library to detect if GPU is available and
  * it has minimum requirement to be able to render a volume with vtk.js. If GPU is not available
+ * it has minimum requirement to be able to render a volume with vtk.js. If GPU is not available
+ * it has minimum requirement to be able to render a volume with vtk.js. If GPU is not available
  * RenderingEngine will throw an error if you try to render a volume; however, for StackViewports
  * it is capable of falling back to CPU rendering for Stack images.
  *
  * By default RenderingEngine will use vtk.js enabled pipeline for rendering viewports,
+ * however, if a custom rendering pipeline is specified by a custom viewport, it will be used instead.
+ * however, if a custom rendering pipeline is specified by a custom viewport, it will be used instead.
  * however, if a custom rendering pipeline is specified by a custom viewport, it will be used instead.
  * We use this custom pipeline to render a StackViewport on CPU using Cornerstone-legacy cpu rendering pipeline.
  *
@@ -110,7 +114,6 @@ class RenderingEngine implements IRenderingEngine {
    * Enables the requested viewport and add it to the viewports. It will
    * properly create the Stack viewport or Volume viewport:
    *
-   * 1) Checks if the viewport is defined already, if yes, remove it first
    * 2) Checks if the viewport is using a custom rendering pipeline, if no,
    * it calculates a new offscreen canvas with the new requested viewport
    * 3) Adds the viewport
