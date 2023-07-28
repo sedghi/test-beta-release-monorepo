@@ -15,7 +15,7 @@ import {
   addButtonToToolbar,
 } from '../../../../utils/demo/helpers';
 import * as cornerstoneTools from '@alireza-beta-monorepo/tools';
-import cornerstoneDICOMImageLoader from '@alireza-test-monorepo/dicom-image-loader';
+import cornerstoneDICOMImageLoader from '@alireza-beta-monorepo/dicom-image-loader';
 
 const {
   SegmentationDisplayTool,

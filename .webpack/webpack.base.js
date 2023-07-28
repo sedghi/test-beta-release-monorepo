@@ -47,8 +47,8 @@ module.exports = (env, argv, { DIST_DIR }) => {
       modules: [path.resolve(PROJECT_ROOT, './node_modules'), SRC_PATH],
       extensions: ['.ts', '.tsx', '.js', '.jsx'],
       alias: {
-        '@alireza-test-monorepo/dicom-image-loader':
-          '@alireza-test-monorepo/dicom-image-loader/dist/dynamic-import/cornerstoneDICOMImageLoader.min.js',
+        '@alireza-beta-monorepo/dicom-image-loader':
+          '@alireza-beta-monorepo/dicom-image-loader/dist/dynamic-import/cornerstoneDICOMImageLoader.min.js',
       },
       fallback: {
         fs: false,

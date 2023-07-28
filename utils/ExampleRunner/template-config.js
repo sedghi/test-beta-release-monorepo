@@ -74,7 +74,7 @@ module.exports = {
       )}',
       // We use this alias and the CopyPlugin to support using the dynamic-import version
       // of WADO Image Loader
-      '@alireza-test-monorepo/dicom-image-loader': '${csDICOMImageLoaderDistPath.replace(
+      '@alireza-beta-monorepo/dicom-image-loader': '${csDICOMImageLoaderDistPath.replace(
         /\\/g,
         '/'
       )}'

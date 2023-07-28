@@ -41,7 +41,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 //           ),
 //           // We use this alias and the CopyPlugin to support using the dynamic-import version
 //           // of WADO Image Loader
-//           '@alireza-test-monorepo/dicom-image-loader': '@alireza-test-monorepo/dicom-image-loader/dist/dynamic-import/cornerstoneDICOMImageLoader.min.js',
+//           '@alireza-beta-monorepo/dicom-image-loader': '@alireza-beta-monorepo/dicom-image-loader/dist/dynamic-import/cornerstoneDICOMImageLoader.min.js',
 //         },
 //       },
 //       devServer: {

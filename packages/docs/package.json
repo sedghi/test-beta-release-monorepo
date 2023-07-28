@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@alireza-beta-monorepo/core": "^1.0.0",
-    "@alireza-test-monorepo/dicom-image-loader": "^1.0.0",
+    "@alireza-beta-monorepo/dicom-image-loader": "^1.0.0",
     "@alireza-beta-monorepo/streaming-image-volume-loader": "^1.0.0",
     "@alireza-beta-monorepo/tools": "^1.0.0",
     "@docusaurus/core": "2.3.1",

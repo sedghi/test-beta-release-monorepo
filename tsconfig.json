@@ -8,7 +8,7 @@
       ],
       "@alireza-beta-monorepo/core": ["core/src"],
       "@alireza-beta-monorepo/tools": ["tools/src"],
-      "@alireza-test-monorepo/dicom-image-loader": ["tools/src"],
+      "@alireza-beta-monorepo/dicom-image-loader": ["tools/src"],
     }
   }
 }

@@ -89,7 +89,7 @@ class RenderingEngine implements IRenderingEngine {
 
     if (!isCornerstoneInitialized()) {
       throw new Error(
-        '@alireza-test-monorepo/core is not initialized, run init() first'
+        '@alireza-beta-monorepo/core is not initialized, run init() first'
       );
     }
 
