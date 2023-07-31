@@ -114,6 +114,8 @@ class RenderingEngine implements IRenderingEngine {
    *
    * 1) Checks if the viewport is defined already, if yes, remove it first
    * 2) Checks if the viewport is using a custom rendering pipeline, if no,
+   * 2) Checks if the viewport is using a custom rendering pipeline, if no,
+   * 2) Checks if the viewport is using a custom rendering pipeline, if no,
    * it calculates a new offscreen canvas with the new requested viewport
    * 3) Adds the viewport
    *
