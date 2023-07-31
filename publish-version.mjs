@@ -69,7 +69,15 @@ async function run() {
   }
 
   // remove the .npmrc to not accidentally publish to npm
-  await fs.unlink('.npmrc');
+
+  try {
+    if (await fs.access('.npmrc')) {
+      await fs.unlink('.npmrc');
+      console.log('.npmrc has been deleted');
+    }
+  } catch (error) {
+    console.log('.npmrc does not exist or an error occurred:', error);
+  }
 
   // rm -f ./.npmrc again
   await execa('rm', ['-f', '.npmrc']);
