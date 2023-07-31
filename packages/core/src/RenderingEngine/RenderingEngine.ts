@@ -112,7 +112,6 @@ class RenderingEngine implements IRenderingEngine {
    * Enables the requested viewport and add it to the viewports. It will
    * properly create the Stack viewport or Volume viewport:
    *
-   * 1) Checks if the viewport is defined already, if yes, remove it first
    * 2) Checks if the viewport is using a custom rendering pipeline, if no,
    * it calculates a new offscreen canvas with the new requested viewport
    * 3) Adds the viewport

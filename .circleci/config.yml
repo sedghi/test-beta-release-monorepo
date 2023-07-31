@@ -104,7 +104,9 @@ workflows:
       - CHECKOUT:
           filters:
             branches:
-              only: main
+              only:
+                - main
+                - beta
       - BUILD:
           requires:
             - CHECKOUT
