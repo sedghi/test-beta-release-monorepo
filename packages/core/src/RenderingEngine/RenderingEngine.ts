@@ -63,7 +63,6 @@ const VIEWPORT_MIN_SIZE = 2;
  * however, if a custom rendering pipeline is specified by a custom viewport, it will be used instead.
  * however, if a custom rendering pipeline is specified by a custom viewport, it will be used instead.
  * however, if a custom rendering pipeline is specified by a custom viewport, it will be used instead.
- * however, if a custom rendering pipeline is specified by a custom viewport, it will be used instead.
  * We use this custom pipeline to render a StackViewport on CPU using Cornerstone-legacy cpu rendering pipeline.
  *
  * @public
