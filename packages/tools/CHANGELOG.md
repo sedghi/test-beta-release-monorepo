@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.7.0-beta.2](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.7.0-beta.1...v2.7.0-beta.2) (2023-07-31)
+
+### Bug Fixes
+
+- **volumes:** a volume should be ([4c48674](https://github.com/cornerstonejs/cornerstone3D-beta/commit/4c48674a66fa24b89d3df1684c023c3c8cd582ab))
+
 # [2.7.0-beta.1](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.6.1...v2.7.0-beta.1) (2023-07-31)
 
 ### Features
