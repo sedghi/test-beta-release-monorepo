@@ -1,5 +1,5 @@
 {
-  "name": "@alireza-beta-monorepo/tools",
+  "name": "@alireza-beta-monorepo/tools-new",
   "version": "1.0.0",
   "description": "Cornerstone3D Tools",
   "main": "dist/umd/index.js",
