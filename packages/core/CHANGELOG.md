@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.7.0](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.7.0-beta.4...v2.7.0) (2023-07-31)
+
+**Note:** Version bump only for package @alireza-beta-monorepo/core
+
 # [2.7.0-beta.4](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.7.0-beta.3...v2.7.0-beta.4) (2023-07-31)
 
 **Note:** Version bump only for package @alireza-beta-monorepo/core
