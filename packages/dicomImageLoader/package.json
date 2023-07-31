@@ -63,7 +63,7 @@
     "prepublishOnly": "yarn run build"
   },
   "dependencies": {
-    "@alireza-beta-monorepo/core": "^1.0.0",
+    "@alireza-beta-monorepo/core": "^1.0.1",
     "@cornerstonejs/codec-charls": "^1.2.3",
     "@cornerstonejs/codec-libjpeg-turbo-8bit": "^1.2.2",
     "@cornerstonejs/codec-openjpeg": "^1.2.2",
