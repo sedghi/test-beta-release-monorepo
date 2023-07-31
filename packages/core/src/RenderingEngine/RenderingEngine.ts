@@ -80,6 +80,7 @@ class RenderingEngine implements IRenderingEngine {
 
   /**
    * @param uid - Unique identifier for RenderingEngine
+   * @param uid - Unique identifier for RenderingEngine
    */
   constructor(id?: string) {
     this.id = id ? id : uuidv4();
