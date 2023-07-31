@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.0.1...v2.1.0) (2023-07-31)
+
+### Features
+
+- **circle:** try to increment feat ([#4](https://github.com/cornerstonejs/cornerstone3D-beta/issues/4)) ([b6cb266](https://github.com/cornerstonejs/cornerstone3D-beta/commit/b6cb266f243717c67aef1cda37f5a0ac2369420b))
+
 ## [2.0.1](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.0.0...v2.0.1) (2023-07-31)
 
 **Note:** Version bump only for package root
