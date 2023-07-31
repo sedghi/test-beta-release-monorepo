@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.7.4](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.7.3...v2.7.4) (2023-07-31)
+
+### Bug Fixes
+
+- **after beta linux:** percent s included ([#11](https://github.com/cornerstonejs/cornerstone3D-beta/issues/11)) ([ef02804](https://github.com/cornerstonejs/cornerstone3D-beta/commit/ef02804b736793210a29bccc1197876b586589db))
+
 ## [2.7.3](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.7.2...v2.7.3) (2023-07-31)
 
 **Note:** Version bump only for package @alireza-beta-monorepo/tools
