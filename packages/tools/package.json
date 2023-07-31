@@ -29,7 +29,7 @@
     "webpack:watch": "webpack --mode development --progress --watch  --config ./.webpack/webpack.dev.js"
   },
   "dependencies": {
-    "@alireza-beta-monorepo/core-new": "1.0.3",
+    "@alireza-beta-monorepo/core-new": "^1.1.0",
     "lodash.clonedeep": "4.5.0",
     "lodash.get": "^4.4.2"
   },
