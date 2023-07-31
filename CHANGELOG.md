@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.7.0-beta.4](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.7.0-beta.3...v2.7.0-beta.4) (2023-07-31)
+
+### Features
+
+- **beta:** try to see conventional graduates ([07d2c4c](https://github.com/cornerstonejs/cornerstone3D-beta/commit/07d2c4c4d05c956b1a1396b7e14b00b03c88ffad))
+- **beta:** try to see conventional grraduate ([9981a90](https://github.com/cornerstonejs/cornerstone3D-beta/commit/9981a9068067d7a2c909512d9d8ec915f98603d0))
+
 # [2.7.0-beta.3](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.7.0-beta.2...v2.7.0-beta.3) (2023-07-31)
 
 **Note:** Version bump only for package root
