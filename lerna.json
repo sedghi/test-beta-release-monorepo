@@ -13,10 +13,7 @@
     "publish": {
       "ignoreChanges": ["*.md", "*.yml", "*.spec.js", "*.test.js"],
       "message": "chore(release): publish",
-      "allowBranch": ["main", "beta"],
-      "distTag": {
-        "beta": "beta"
-      }
+      "allowBranch": ["main", "beta"]
     },
     "version": {
       "allowBranch": ["main", "beta"],
