@@ -130,16 +130,6 @@
     "@algolia/logger-common" "4.17.0"
     "@algolia/requester-common" "4.17.0"
 
-"@alireza-beta-monorepo/core@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@alireza-beta-monorepo/core/-/core-1.0.1.tgz#56d3c9efb07c8d852dd4f459c7436540716bcfc8"
-  integrity sha512-Of2FQDR9ajnMzdzOL4oQ6ZkD7zU04AnPK5EixEccc4QmpbT5npynoHJ4PrCSlHN0lJw9PuWCJ2iILkQgOIrNVw==
-  dependencies:
-    "@kitware/vtk.js" "27.3.1"
-    detect-gpu "^5.0.22"
-    gl-matrix "^3.4.3"
-    lodash.clonedeep "4.5.0"
-
 "@ampproject/remapping@^2.2.0":
   version "2.2.1"
   resolved "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.2.1.tgz#99e8e11851128b8702cd57c33684f1d0f260b630"
