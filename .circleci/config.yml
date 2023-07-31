@@ -14,7 +14,7 @@ jobs:
     <<: *defaults
     steps:
       - checkout
-      - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+      - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/repo/.npmrc
       - restore_cache:
           name: Restore Package Cache
           keys:
@@ -48,6 +48,9 @@ jobs:
             - packages/streaming-image-volume-loader/dist
             - packages/adapters/dist
             - packages/dicomImageLoader/dist
+            - version.txt
+            - commit.txt
+            - version.json
 
   NPM_PUBLISH:
     <<: *defaults

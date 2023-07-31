@@ -69,18 +69,11 @@ async function run() {
   }
 
   // remove the .npmrc to not accidentally publish to npm
+  const localNpmrc = '.npmrc';
+  const repoNpmrc = path.join(os.homedir(), 'repo/.npmrc');
 
-  try {
-    if (await fs.access('.npmrc')) {
-      await fs.unlink('.npmrc');
-      console.log('.npmrc has been deleted');
-    }
-  } catch (error) {
-    console.log('.npmrc does not exist or an error occurred:', error);
-  }
-
-  // rm -f ./.npmrc again
-  await execa('rm', ['-f', '.npmrc']);
+  await unlinkFile(localNpmrc);
+  await unlinkFile(repoNpmrc);
 
   // Todo: Do we really need to run the build command here?
   // Maybe we need to hook the netlify deploy preview
@@ -110,6 +103,16 @@ async function run() {
   ]);
 
   console.log('Version set using lerna');
+}
+
+async function unlinkFile(filePath) {
+  try {
+    await fs.access(filePath);
+    await fs.unlink(filePath);
+    console.log(`${filePath} has been deleted`);
+  } catch (error) {
+    console.log(`${filePath} does not exist or an error occurred:`, error);
+  }
 }
 
 run().catch((err) => {
