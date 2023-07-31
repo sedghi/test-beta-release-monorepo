@@ -41,7 +41,7 @@ async function run() {
     } else {
       nextVersion = semver.inc(currentVersion, 'patch');
     }
-  } else {
+  } else if (branchName === 'beta') {
     console.log('Branch: beta');
     const prereleaseComponents = semver.prerelease(currentVersion);
     const isBumpBeta = lastCommitMessage.trim().endsWith('[BUMP BETA]');
@@ -65,6 +65,8 @@ async function run() {
         nextMinorVersion
       )}.0-beta.0`;
     }
+  } else {
+    throw new Error(`Unknown branch: ${branchName}`);
   }
 
   if (!nextVersion) {
