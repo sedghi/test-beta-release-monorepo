@@ -27,50 +27,54 @@ async function run() {
   // next version since lerna will not handle this for us
 
   // Iterate over each package path pattern
-for (const packagePathPattern of packages) {
-  // Use glob to find all matching directories
-  const matchingDirectories = glob.sync(packagePathPattern);
+  for (const packagePathPattern of packages) {
+    // Use glob to find all matching directories
+    const matchingDirectories = glob.sync(packagePathPattern);
 
-  for (const packageDirectory of matchingDirectories) {
-    const packageJsonPath = path.join(packageDirectory, 'package.json');
+    for (const packageDirectory of matchingDirectories) {
+      const packageJsonPath = path.join(packageDirectory, 'package.json');
 
-    try {
-      const packageJson = JSON.parse(
-        await fs.readFile(packageJsonPath, 'utf-8')
-      );
+      try {
+        const packageJson = JSON.parse(
+          await fs.readFile(packageJsonPath, 'utf-8')
+        );
 
-      // Iterate over peerDependencies, dependencies, and devDependencies
-      for (const dependencyType of ['peerDependencies', 'dependencies', 'devDependencies']) {
-        const dependencies = packageJson[dependencyType];
+        // Iterate over peerDependencies, dependencies, and devDependencies
+        for (const dependencyType of [
+          'peerDependencies',
+          'dependencies',
+          'devDependencies',
+        ]) {
+          const dependencies = packageJson[dependencyType];
 
-        if (!dependencies) {
-          continue;
-        }
+          if (!dependencies) {
+            continue;
+          }
 
-        for (const dependency of Object.keys(dependencies)) {
-          if (dependency.startsWith('@alireza-beta-monorepo/')) {
-            dependencies[dependency] = nextVersion;
+          for (const dependency of Object.keys(dependencies)) {
+            if (dependency.startsWith('@alireza-beta-monorepo/')) {
+              dependencies[dependency] = nextVersion;
 
-            console.log(
-              `updating ${dependencyType} to `,
-              dependencies[dependency]
-            );
+              console.log(
+                `updating ${dependencyType} to `,
+                dependencies[dependency]
+              );
+            }
           }
         }
+
+        await fs.writeFile(
+          packageJsonPath,
+          JSON.stringify(packageJson, null, 2) + '\n'
+        );
+
+        console.log(`Updated ${packageJsonPath}`);
+      } catch (err) {
+        // This could be a directory without a package.json file. Ignore and continue.
+        continue;
       }
-
-      await fs.writeFile(
-        packageJsonPath,
-        JSON.stringify(packageJson, null, 2) + '\n'
-      );
-
-      console.log(`Updated ${packageJsonPath}`);
-    } catch (err) {
-      // This could be a directory without a package.json file. Ignore and continue.
-      continue;
     }
   }
-
 
   // remove the .npmrc to not accidentally publish to npm
   const localNpmrc = '.npmrc';
