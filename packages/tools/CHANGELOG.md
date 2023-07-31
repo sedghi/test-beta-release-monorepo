@@ -3,6 +3,50 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.7.0-beta.2](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.7.0-beta.1...v2.7.0-beta.2) (2023-07-31)
+
+### Bug Fixes
+
+- **volumes:** a volume should be ([4c48674](https://github.com/cornerstonejs/cornerstone3D-beta/commit/4c48674a66fa24b89d3df1684c023c3c8cd582ab))
+
+# [2.7.0-beta.1](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.6.1...v2.7.0-beta.1) (2023-07-31)
+
+### Features
+
+- **circle:** try release beta ([1ad30a7](https://github.com/cornerstonejs/cornerstone3D-beta/commit/1ad30a7f4d287d0ed94cadfb01e872b48fd77ed1))
+
+## [2.6.1](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.5.0-beta.2...v2.6.1) (2023-07-31)
+
+**Note:** Version bump only for package @alireza-beta-monorepo/tools
+
+# [2.5.0-beta.2](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.3.1...v2.5.0-beta.2) (2023-07-31)
+
+### Features
+
+- **beta:** try to properly use beta ([df6d8a0](https://github.com/cornerstonejs/cornerstone3D-beta/commit/df6d8a0f7d16a1e35db1561623adbe9aa1ee4f38))
+
+# [2.5.0](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.3.1...v2.5.0) (2023-07-31)
+
+### Features
+
+- **beta:** try to properly use beta ([df6d8a0](https://github.com/cornerstonejs/cornerstone3D-beta/commit/df6d8a0f7d16a1e35db1561623adbe9aa1ee4f38))
+
+# [2.4.0](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.3.1...v2.4.0) (2023-07-31)
+
+### Features
+
+- **beta:** try to properly use beta ([df6d8a0](https://github.com/cornerstonejs/cornerstone3D-beta/commit/df6d8a0f7d16a1e35db1561623adbe9aa1ee4f38))
+
+## [2.3.1](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.3.0...v2.3.1) (2023-07-31)
+
+**Note:** Version bump only for package @alireza-beta-monorepo/tools
+
+# [2.3.0](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.2.0...v2.3.0) (2023-07-31)
+
+### Features
+
+- **beta:** try to publish beta ([a45f090](https://github.com/cornerstonejs/cornerstone3D-beta/commit/a45f090a1d73562de93c098fd8eec31b15c9d1f3))
+
 # [2.2.0](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.1.0...v2.2.0) (2023-07-31)
 
 ### Features

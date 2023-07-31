@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.7.0-beta.2](https://github.com/dcmjs-org/dcmjs/compare/v2.7.0-beta.1...v2.7.0-beta.2) (2023-07-31)
+
+**Note:** Version bump only for package @alireza-beta-monorepo/adapters
+
+# [2.7.0-beta.1](https://github.com/dcmjs-org/dcmjs/compare/v2.6.1...v2.7.0-beta.1) (2023-07-31)
+
+**Note:** Version bump only for package @alireza-beta-monorepo/adapters
+
+## [2.6.1](https://github.com/dcmjs-org/dcmjs/compare/v2.5.0-beta.2...v2.6.1) (2023-07-31)
+
+**Note:** Version bump only for package @alireza-beta-monorepo/adapters
+
+# [2.5.0-beta.2](https://github.com/dcmjs-org/dcmjs/compare/v2.3.1...v2.5.0-beta.2) (2023-07-31)
+
+**Note:** Version bump only for package @alireza-beta-monorepo/adapters
+
+# [2.5.0](https://github.com/dcmjs-org/dcmjs/compare/v2.3.1...v2.5.0) (2023-07-31)
+
+**Note:** Version bump only for package @alireza-beta-monorepo/adapters
+
+# [2.4.0](https://github.com/dcmjs-org/dcmjs/compare/v2.3.1...v2.4.0) (2023-07-31)
+
+**Note:** Version bump only for package @alireza-beta-monorepo/adapters
+
+## [2.3.1](https://github.com/dcmjs-org/dcmjs/compare/v2.3.0...v2.3.1) (2023-07-31)
+
+**Note:** Version bump only for package @alireza-beta-monorepo/adapters
+
+# [2.3.0](https://github.com/dcmjs-org/dcmjs/compare/v2.2.0...v2.3.0) (2023-07-31)
+
+**Note:** Version bump only for package @alireza-beta-monorepo/adapters
+
 # [2.2.0](https://github.com/dcmjs-org/dcmjs/compare/v2.1.0...v2.2.0) (2023-07-31)
 
 **Note:** Version bump only for package @alireza-beta-monorepo/adapters

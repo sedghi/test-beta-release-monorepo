@@ -1,5 +1,5 @@
 {
-  "version": "2.2.0",
+  "version": "2.7.0-beta.2",
   "packages": [
     "packages/adapters",
     "packages/core",
@@ -12,10 +12,11 @@
   "command": {
     "publish": {
       "ignoreChanges": ["*.md", "*.yml", "*.spec.js", "*.test.js"],
-      "message": "chore(release): publish"
+      "message": "chore(release): publish",
+      "allowBranch": ["main", "beta"]
     },
     "version": {
-      "allowBranch": "main",
+      "allowBranch": ["main", "beta"],
       "conventionalCommits": true,
       "yes": true,
       "message": "chore(release): publish [skip ci]",
