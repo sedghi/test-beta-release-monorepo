@@ -33,6 +33,9 @@ import { LabelmapSegmentationData } from '../../types/LabelmapTypes';
 
 /**
  * Tool for manipulating segmentation data by drawing a circle. It acts on the
+ * Tool for manipulating segmentation data by drawing a circle. It acts on the
+ * Tool for manipulating segmentation data by drawing a circle. It acts on the
+ * Tool for manipulating segmentation data by drawing a circle. It acts on the
  * segmentation and segmentIndex.
  */
 class CircleScissorsTool extends BaseTool {
