@@ -61,6 +61,10 @@ const VIEWPORT_MIN_SIZE = 2;
  *
  * By default RenderingEngine will use vtk.js enabled pipeline for rendering viewports,
  * however, if a custom rendering pipeline is specified by a custom viewport, it will be used instead.
+ * however, if a custom rendering pipeline is specified by a custom viewport, it will be used instead.
+ * however, if a custom rendering pipeline is specified by a custom viewport, it will be used instead.
+ * however, if a custom rendering pipeline is specified by a custom viewport, it will be used instead.
+ * however, if a custom rendering pipeline is specified by a custom viewport, it will be used instead.
  * We use this custom pipeline to render a StackViewport on CPU using Cornerstone-legacy cpu rendering pipeline.
  *
  * @public
@@ -79,7 +83,6 @@ class RenderingEngine implements IRenderingEngine {
   private useCPURendering: boolean;
 
   /**
-   * @param uid - Unique identifier for RenderingEngine
    * @param uid - Unique identifier for RenderingEngine
    */
   constructor(id?: string) {
