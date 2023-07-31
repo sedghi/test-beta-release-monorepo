@@ -28,7 +28,7 @@
     "webpack:watch": "webpack --mode development --progress --watch  --config ./.webpack/webpack.dev.js"
   },
   "dependencies": {
-    "@alireza-beta-monorepo/core-new": "^2.0.0-beta.2"
+    "@alireza-beta-monorepo/core-new": "^2.0.0"
   },
   "contributors": [
     {
