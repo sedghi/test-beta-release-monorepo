@@ -130,7 +130,7 @@
     "@algolia/logger-common" "4.17.0"
     "@algolia/requester-common" "4.17.0"
 
-"@alireza-beta-monorepo/core@^1.0.0", "@alireza-beta-monorepo/core@^1.0.1":
+"@alireza-beta-monorepo/core@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@alireza-beta-monorepo/core/-/core-1.0.1.tgz#56d3c9efb07c8d852dd4f459c7436540716bcfc8"
   integrity sha512-Of2FQDR9ajnMzdzOL4oQ6ZkD7zU04AnPK5EixEccc4QmpbT5npynoHJ4PrCSlHN0lJw9PuWCJ2iILkQgOIrNVw==
@@ -139,36 +139,6 @@
     detect-gpu "^5.0.22"
     gl-matrix "^3.4.3"
     lodash.clonedeep "4.5.0"
-
-"@alireza-beta-monorepo/dicom-image-loader@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@alireza-beta-monorepo/dicom-image-loader/-/dicom-image-loader-1.0.1.tgz#5b4fc0f13d946a43e5dbafa3c875d22db98ee830"
-  integrity sha512-qIIdizwGd02F1pHYetQhrOKvdXdTcSGoE1gpmrQvUpaeePB0+buS1NIV0NXJIwb816jOHgPHJi/mLMz1+MqnZQ==
-  dependencies:
-    "@alireza-beta-monorepo/core" "^1.0.1"
-    "@cornerstonejs/codec-charls" "^1.2.3"
-    "@cornerstonejs/codec-libjpeg-turbo-8bit" "^1.2.2"
-    "@cornerstonejs/codec-openjpeg" "^1.2.2"
-    "@cornerstonejs/codec-openjph" "^2.4.2"
-    dicom-parser "^1.8.9"
-    pako "^2.0.4"
-    uuid "^9.0.0"
-
-"@alireza-beta-monorepo/streaming-image-volume-loader@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@alireza-beta-monorepo/streaming-image-volume-loader/-/streaming-image-volume-loader-1.0.1.tgz#f96b06d0c4030feaf854d6473bede464d4d16bd6"
-  integrity sha512-pPODH2IJZMW1NW5IQwUD7BmnwDZfvlvqQMPU2pdQIsw0N0UXVyFp6J9s14wZHTlqKXejLwy0KtFEJ5366kxAYA==
-  dependencies:
-    "@alireza-beta-monorepo/core" "^1.0.1"
-
-"@alireza-beta-monorepo/tools@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@alireza-beta-monorepo/tools/-/tools-1.0.1.tgz#d9172ec138c30377acae866abe7a8ab332bb4dfd"
-  integrity sha512-1qIpUivQyAPSHUVjpax6e+irwUKiNzNYiE20LSx4Aj/ALgyqs+2kYwkz8gRSdz4Lp7m6DDLenIouSB2oJESk3g==
-  dependencies:
-    "@alireza-beta-monorepo/core" "^1.0.1"
-    lodash.clonedeep "4.5.0"
-    lodash.get "^4.4.2"
 
 "@ampproject/remapping@^2.2.0":
   version "2.2.1"
