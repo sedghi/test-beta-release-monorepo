@@ -66,7 +66,7 @@ async function run() {
       )}.0-beta.0`;
     }
   } else {
-    throw new Error(`Unknown branch: ${branchName}`);
+    return;
   }
 
   if (!nextVersion) {
