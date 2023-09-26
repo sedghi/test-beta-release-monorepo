@@ -2,7 +2,6 @@ import { execa } from 'execa';
 import fs from 'fs/promises';
 import glob from 'glob';
 import path from 'path';
-import os from 'os';
 
 async function run() {
   const { stdout: branchName } = await execa('git', [
@@ -39,27 +38,20 @@ async function run() {
           await fs.readFile(packageJsonPath, 'utf-8')
         );
 
-        // Iterate over peerDependencies, dependencies, and devDependencies
-        for (const dependencyType of [
-          'peerDependencies',
-          'dependencies',
-          'devDependencies',
-        ]) {
-          const dependencies = packageJson[dependencyType];
+        if (!packageJson.peerDependencies) {
+          continue;
+        }
 
-          if (!dependencies) {
-            continue;
-          }
+        for (const peerDependency of Object.keys(
+          packageJson.peerDependencies
+        )) {
+          if (peerDependency.startsWith('@alireza-beta-monorepo/')) {
+            packageJson.peerDependencies[peerDependency] = nextVersion;
 
-          for (const dependency of Object.keys(dependencies)) {
-            if (dependency.startsWith('@alireza-beta-monorepo/')) {
-              dependencies[dependency] = `^${nextVersion}`;
-
-              console.log(
-                `updating ${dependencyType} to `,
-                dependencies[dependency]
-              );
-            }
+            console.log(
+              'updating peerdependency to ',
+              packageJson.peerDependencies[peerDependency]
+            );
           }
         }
 
@@ -77,11 +69,10 @@ async function run() {
   }
 
   // remove the .npmrc to not accidentally publish to npm
-  const localNpmrc = '.npmrc';
-  const repoNpmrc = path.join(os.homedir(), 'repo/.npmrc');
+  await fs.unlink('.npmrc');
 
-  await unlinkFile(localNpmrc);
-  await unlinkFile(repoNpmrc);
+  // rm -f ./.npmrc again
+  await execa('rm', ['-f', '.npmrc']);
 
   // Todo: Do we really need to run the build command here?
   // Maybe we need to hook the netlify deploy preview
@@ -108,19 +99,12 @@ async function run() {
     '--force-publish',
     '--message',
     'chore(version): Update package versions [skip ci]',
+    '--conventional-commits',
+    '--create-release',
+    'github',
   ]);
 
   console.log('Version set using lerna');
-}
-
-async function unlinkFile(filePath) {
-  try {
-    await fs.access(filePath);
-    await fs.unlink(filePath);
-    console.log(`${filePath} has been deleted`);
-  } catch (error) {
-    console.log(`${filePath} does not exist or an error occurred:`, error);
-  }
 }
 
 run().catch((err) => {
