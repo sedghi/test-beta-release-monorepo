@@ -1,13 +1,16 @@
 # Use the latest 2.1 version of CircleCI pipeline processing engine, see https://circleci.com/docs/2.0/configuration-reference/
 version: 2.1
 
+
+
 defaults: &defaults
-  working_directory: ~/repo
-  # https://circleci.com/docs/2.0/circleci-images/#language-image-variants
   docker:
-    - image: cimg/node:16.14.2-browsers
+    - image: cimg/node:18.18
       environment:
         TERM: xterm # Enable colors in term
+        QUICK_BUILD: true
+  working_directory: ~/repo
+
 
 jobs:
   CHECKOUT:
